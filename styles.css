@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0A0A23;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #1C1C3D;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+main {
+    padding: 40px;
+}
+
+.chart {
+    background-color: #1C1C3D;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#stockChart {
+    height: 400px;
+    background-color: #0F0F3D;
+    border: 2px solid #6C6CFF;
+    border-radius: 8px;
+    color: #00FF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.algorithms {
+    text-align: center;
+}
+
+.algorithm-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #2D2D5A;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
